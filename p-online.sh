@@ -5,12 +5,12 @@ function install() {
     npm install;
     cd ..;
 }
-function start-server() {
+function start() {
     cd server;
     npm start;
 }
 
-function update-server() {
+function update() {
     cd updater;
     npm start;
     cd ..;
