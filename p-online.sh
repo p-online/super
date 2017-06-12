@@ -7,11 +7,11 @@ function install() {
 }
 function start() {
     cd server;
-    npm start;
+    sudo npm start;
 }
 
 function update() {
     cd updater;
-    npm start;
+    sudo npm start;
     cd ..;
 }
