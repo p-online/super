@@ -1,0 +1,3 @@
+TITLE=P-Online      #Define the title that is showed on the page.
+PORT=80             #Define the port that is used to host the server.
+WEBSOCKET=          #Define the websocket adress, leave empty if same as webserver.
