@@ -1,4 +1,4 @@
-BASEDIR=$(dirname ""(dirname "$0")");
+BASEDIR=$(dirname "(dirname "$0")");
 function install() {
     if [ -f $BASEDIR/config ]
     then
