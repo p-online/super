@@ -3,7 +3,7 @@ function install() {
     if [ -f $BASEDIR/config ]
     then
         (cd $BASEDIR/server && exec npm install)
-        (cd $BASEDIR/updater && exec npm install
+        (cd $BASEDIR/updater && exec npm install)
     else
         echo "No config file found, create one using the conf command"
     fi
